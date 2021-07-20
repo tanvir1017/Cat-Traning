@@ -1,0 +1,167 @@
+/* font collections  */
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two&display=swap');
+/* font collections  */
+html {
+    scroll-behavior: smooth;
+}
+hr
+{
+    border: 1px solid #E94B3CFF;
+}
+
+/* header start */
+.header-text-img {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+        url(../images/header-5.jpg);
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.email-phone {
+    background-color: #E94B3CFF;
+    padding: 10px;
+}
+
+.email-phone i {
+    color: #080808;
+    font-size: 19px;
+    vertical-align: middle;
+}
+.email, .phone > small
+{
+    color: #141414;
+    font-weight: bold;
+}
+
+.logo {
+    width: 60px;
+    height: 32px;
+}
+.my-search, .nav-link{
+    color: #E94B3CFF !important;
+    font-size: 16px;
+    font-weight: bold;
+}
+.navigation
+{
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
+.my-navbar
+{
+    flex-grow: 0 !important;
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+    transition: .4s;
+    color: #f83220;
+}
+
+.navbar-toggler span {
+    outline: none;
+    border: none;
+}
+
+.navbar-toggler:focus {
+    outline: none;
+    box-shadow: 0 0px 4px 4px #E94B3CFF;
+}
+
+.fas.fa-bars {
+    color: #E94B3CFF;
+}
+/* header end from here */
+
+/* main start from here */
+.contact-us
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%, -7~0%);
+    background-color: #2d292662;
+}
+.details h1
+{
+    color: #E94B3CFF;
+}
+.details input
+{
+    display: inline !important;
+    box-shadow: none !important;
+    background-color: #00000073;
+    border-right: 4px solid #E94B3CFF;
+    border-bottom: none;
+    height: 60px;
+    border-top: none;
+    border-left: none;
+    border-radius: 0 !important;
+    color: #fff !important;
+    font-family: 'Lobster Two', cursive;
+    letter-spacing: 3px !important;
+}
+.details input:focus
+{
+    background-color: #00000073;
+    box-shadow: none !important;
+}
+.info
+{
+    background-color: #E94B3CFF;
+}
+.info>p
+{
+    color: #0f0f0f;
+}
+.info-icon a
+{
+    color: #0f0f0f;
+}
+textarea{
+    width: 100%;
+    height: 150px;
+    background-color: #00000073;
+    border: none !important;
+    box-shadow: none !important;
+    outline: none;
+    color: #fff !important;
+    font-family: 'Lobster Two', cursive;
+    letter-spacing: 3px !important;
+}
+/* main end from here */
+
+/* footer section start from here */
+footer
+{
+    background: #2D2926FF;
+}
+.company-title
+{
+    color: #E94B3CFF;
+}
+footer p a
+{
+    color: #646464;
+    cursor: pointer;
+}
+footer p a:hover
+{
+    color: #646464;
+}
+.copyright{
+    padding: 10px 10px 3px;
+    background-color: #181818;
+}
+.copyright p
+{
+    text-align: center;
+    color: #646464;
+}
+/* footer section end from here */
