@@ -85,8 +85,18 @@ hr
     position: absolute;
     top: 50%;
     left: 50%;
-    transform:translate(-50%, -7~0%);
+    transform:translate(-50%, -70%);
     background-color: #2d292662;
+}
+@media screen and (max-width:688px) {
+    .contact-us
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%, -50%);
+    background-color: #2d292662;
+}
 }
 .details h1
 {
