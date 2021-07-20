@@ -1,0 +1,284 @@
+html {
+    scroll-behavior: smooth;
+}
+hr
+{
+    border: 1px solid #E94B3CFF;
+}
+
+/* header start */
+.header-text-img {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+        url(images/header-2.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.header-text {
+    background: #13121296;
+    padding: 0px;
+    border-radius: 20px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-94%, 60%);
+}
+
+.header-text h1 {
+    letter-spacing: 2px;
+    font-weight: bolder;
+    padding: 10px 15px;
+    color: white;
+}
+
+.header-text p {
+    color: #E94B3CFF;
+    font-size: 20px;
+}
+
+.header-footer {
+    background-color: #4e4c4c82;
+    position: relative;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top: 1px solid #E94B3CFF;
+    padding: 20px 25px;
+}
+
+.email-phone {
+    background-color: #E94B3CFF;
+    padding: 10px;
+}
+
+.email-phone i {
+    font-size: 19px;
+    vertical-align: middle;
+}
+
+.logo {
+    width: 60px;
+    height: 32px;
+}
+.navigation
+{
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
+.my-navbar
+{
+    flex-grow: 0 !important;
+}
+
+.nav-link {
+    font-size: 16px;
+    color: #dadada;
+    font-weight: bold;
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+    transition: .4s;
+    color: #ffffff;
+}
+
+.navbar-toggler span {
+    outline: none;
+    border: none;
+}
+
+.navbar-toggler:focus {
+    outline: none;
+    box-shadow: 0 0px 4px 4px #E94B3CFF;
+}
+
+.fas.fa-bars {
+    color: white;
+}
+
+/* header end */
+
+/* about cat start*/
+.breeding {
+    width: 0px;
+    position: relative;
+    margin: 55px auto 80px;
+    width: auto;
+}
+
+.breeding p {
+    color: #2D2926FF;
+    font-size: 60px;
+    font-family: rubik;
+    font-weight: 800;
+}
+
+.breeding p::after {
+    content: "";
+    display: block;
+    width: 200px;
+    height: 5px;
+    background-color: #E94B3CFF;
+    position: absolute;
+    left: 546px;
+}
+
+.about-cat-text,
+.about-cat-text-1 {
+    text-align: justify;
+}
+/* about cat end */
+
+/* contact section start from here */
+.contact
+{
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7)), url(images/talk-1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-attachment: fixed; */
+    height: 60vh;
+    width: 100%;
+}
+.contact-details
+{
+    top: 50%;
+    left: 50%;
+    position: relative;
+    transform: translate(-50%, -50%);
+}
+.my-btn
+{
+    top: 50%;
+    left: 50%;
+    position: relative;
+    transform: translate(-50%, 80%);
+    background-color: #E94B3CFF;
+    padding: 10px 30px !important;
+    color: white;
+    font-weight: 500;
+    box-shadow: 0px 0px 7px 4px rgb(204 25 0) !important;
+    border-radius: 15px;
+}
+}
+}
+.my-btn:hover{
+    color: white;
+}
+/* contact section end from here */
+
+/* footer section start from here */
+footer
+{
+    background: #2D2926FF;
+}
+.company-title
+{
+    color: #E94B3CFF;
+}
+footer p a
+{
+    color: #646464;
+    cursor: pointer;
+}
+footer p a:hover
+{
+    color: #646464;
+}
+.copyright{
+    padding: 10px 10px 3px;
+    background-color: #181818;
+}
+.copyright p
+{
+    text-align: center;
+    color: #646464;
+}
+/* footer section end from here */
+
+
+@media only screen and (max-width:688px) {
+    /* header start */
+    .header-text-img {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+            url(images/header-2.jpg);
+        background-position: center;
+        background-size: cover;
+        height: 100vh;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+
+    .breeding p::after {
+        content: "";
+        display: block;
+        width: 200px;
+        height: 5px;
+        background-color: #E94B3CFF;
+        position: absolute;
+        left: 0px;
+    }
+
+    .header-text {
+        background: #13121296;
+        border-radius: 26px;
+        position: relative;
+        transform: translate(-50%, 100%);
+    }
+
+    .header-text h1 {
+        font-weight: 500;
+        padding: 23px 20px;
+        color: white;
+        font-size: 18px;
+    }
+
+    .header-text p {
+        color: #E94B3CFF;
+        font-size: 18px;
+    }
+
+    .header-footer {
+        background-color: #4e4c4c82;
+        position: relative;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+        border-top: 1px solid #E94B3CFF;
+        padding: 10px 12px;
+    }
+    /* header end */
+
+    /* about cat breeding and training */
+    .breeding-title-2 {
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    .breeding-title {
+        text-align: center;
+    }
+
+    .about-cat-text-1 {
+        margin-bottom: 42px !important;
+    }
+
+    /* about cat breeding and training */
+
+}
+
+/* about cat */
+
+@media only screen and (max-width: 992px) {
+    .about-cat-text,
+    .about-cat-text-1 
+    {
+        text-align: justify;
+        height: 248px;
+        overflow: scroll;
+        margin: 0;
+    }
+}
