@@ -1,0 +1,159 @@
+/* font collections  */
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two&display=swap');
+/* font collections  */
+html {
+    scroll-behavior: smooth;
+}
+hr
+{
+    border: 1px solid #E94B3CFF;
+}
+
+/* header start */
+.header-text-img {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+        url(../images/training-2.jpg);
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.email-phone {
+    background-color: #E94B3CFF;
+    padding: 10px;
+}
+
+.email-phone i {
+    color: #080808;
+    font-size: 19px;
+    vertical-align: middle;
+}
+.email, .phone > small
+{
+    color: #141414;
+    font-weight: bold;
+}
+
+.logo {
+    width: 130px;
+    height: 43px;
+}
+.my-search, .nav-link{
+    color: #E94B3CFF !important;
+    font-size: 16px;
+    font-weight: bold;
+}
+.navigation
+{
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
+.my-navbar
+{
+    flex-grow: 0 !important;
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+    transition: .4s;
+    color: #f83220;
+}
+
+.navbar-toggler span {
+    outline: none;
+    border: none;
+}
+
+.navbar-toggler:focus {
+    outline: none;
+    box-shadow: 0 0px 4px 4px #E94B3CFF;
+}
+
+.fas.fa-bars {
+    color: #E94B3CFF;
+}
+/* header end from here */
+
+/* about-me section start from here */
+.text-brand
+{
+    padding: 0 !important;
+    margin: 0 !important;
+}
+.brand-title
+{   
+    font-family: 'Lobster Two', cursive;
+    font-weight: 700;
+    color: #E94B3CFF ;
+}
+.about-me
+{
+    background-color: #ffffff61;
+    position: relative;
+    top: 40px;
+    padding: 10px;
+}
+.about-me img
+{
+    width: 470px;
+    margin: 63px auto;
+}
+.about-me-details
+{
+    margin: 10px auto 0px;
+}
+.about-me-title
+{
+    text-align: center;
+    font-weight: bold;
+    font-size: 60px;
+}
+.about-me-details p
+{
+    background-color: #ff230fa9;
+    padding: 15px;
+    position: relative;
+    margin: 0 auto;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: justify;
+    color: #ffffff;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+/* about-me section end from here */
+
+/* footer section start from here */
+footer
+{
+    background: #2D2926FF;
+}
+.company-title
+{
+    color: #E94B3CFF;
+}
+footer p a
+{
+    color: #646464;
+    cursor: pointer;
+}
+footer p a:hover
+{
+    color: #646464;
+}
+.copyright{
+    padding: 10px 10px 3px;
+    background-color: #181818;
+}
+.copyright p
+{
+    text-align: center;
+    color: #646464;
+}
+/* footer section end from here */

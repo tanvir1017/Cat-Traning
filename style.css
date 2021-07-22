@@ -1,3 +1,6 @@
+/* font collections  */
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two&display=swap');
+/* font collections  */
 html {
     scroll-behavior: smooth;
 }
@@ -5,7 +8,6 @@ hr
 {
     border: 1px solid #E94B3CFF;
 }
-
 /* header start */
 .header-text-img {
     background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
@@ -33,6 +35,9 @@ hr
     font-weight: bolder;
     padding: 10px 15px;
     color: white;
+    font-family: 'Lobster Two', cursive;
+    font-weight: 700;
+    color: #f83220;
 }
 
 .header-text p {
@@ -55,13 +60,19 @@ hr
 }
 
 .email-phone i {
+    color: #080808;
     font-size: 19px;
     vertical-align: middle;
 }
+.email, .phone > small
+{
+    color: #141414;
+    font-weight: bold;
+}
 
 .logo {
-    width: 60px;
-    height: 32px;
+    width: 130px;
+    height: 43px;
 }
 .navigation
 {
@@ -69,21 +80,19 @@ hr
     top: 0;
     z-index: 2;
 }
+.my-search, .nav-link{
+    color: #E94B3CFF !important;
+    font-size: 16px;
+    font-weight: bold;
+}
 .my-navbar
 {
     flex-grow: 0 !important;
 }
-
-.nav-link {
-    font-size: 16px;
-    color: #dadada;
-    font-weight: bold;
-}
-
 .nav-link:hover {
     text-decoration: underline;
     transition: .4s;
-    color: #ffffff;
+    color: #f83220;
 }
 
 .navbar-toggler span {
@@ -163,8 +172,6 @@ hr
     font-weight: 500;
     box-shadow: 0px 0px 7px 4px rgb(204 25 0) !important;
     border-radius: 15px;
-}
-}
 }
 .my-btn:hover{
     color: white;
