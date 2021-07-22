@@ -160,6 +160,10 @@ hr
     position: relative;
     transform: translate(-50%, -50%);
 }
+.contact-title
+{
+    font-family: 'Lobster Two', cursive;
+}
 .my-btn
 {
     top: 50%;
